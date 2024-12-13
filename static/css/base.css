@@ -1,0 +1,213 @@
+:root{
+    --primary-color: #AF9FFF;
+    --primary-color-100: #D5CCFF;
+    --primary-color-300: #7F66FF;
+
+    --secondary-color: #025834;
+    --secondary-color-600: #04C876;
+    --secondary-color-900: #01321E;
+
+    --background-color: #1B1B1B;
+    --surface-color: #252525;
+    --neutral-color: #E0E0E0;
+
+    --lobster-font: "Lobster Two", sans-serif;
+    --dm-font: "Dm Sans", sans-serif;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--dm-font);
+    text-decoration: none;
+}
+
+html{
+    background-color: var(--background-color);
+    font-size: 18px;
+}
+
+h1{
+    color: var(--secondary-color-600);
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.center-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-column{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h2{
+    font-family: var(--lobster-font);
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    letter-spacing: .06rem;
+}
+
+p{
+    color: var(--neutral-color);
+    font-size: 1.1rem;
+}
+
+.text-label{
+    color: var(--background-color);
+    background-color: var(--primary-color-100);
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.1rem;
+}
+
+.projects h1{
+    text-align: center;
+    margin-top: 10dvh;
+
+}
+
+.project-grid{
+    margin: 10dvh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    row-gap: 5dvh;
+    margin-left: 15dvh;
+}
+
+.project-container{
+    margin: 0;
+}
+
+.project-container img{
+    width: 80%;
+}
+
+.project-title{
+    color: var(--secondary-color);
+    text-transform: uppercase;
+    font-size: 3dvh;
+    margin-top: 1dvh;
+    margin-bottom: 1dvh;
+}
+
+.experience{
+    margin-top: 20dvh;
+}
+
+.experience h1{
+    text-align: center;
+    margin-top: 10dvh;
+
+}
+
+.project-container2 {
+    width: 80%;
+    height: 50%;
+}
+
+/* Estilo general */
+.contact {
+    text-align: center;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+}
+
+.contact h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.contact h3 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #aaa;
+}
+
+/* Contenedor del formulario */
+.contact-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background-color: #1c1c1c;
+    padding: 30px;
+    border: 1px solid #555;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo de los campos */
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    color: #aaa;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #555;
+    padding: 10px 5px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    outline: none;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+    color: #555;
+}
+
+/* Botones */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.send-btn,
+.reset-btn {
+    padding: 10px 20px;
+    border: 1px solid #555;
+    background-color: transparent;
+    color: #555;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.send-btn:hover {
+    color: #fff;
+    border-color: #fff;
+}
+
+.reset-btn {
+    color: #444;
+    border-color: #444;
+}
+
+.reset-btn:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+
+footer{
+    margin-top: 10dvh;
+}

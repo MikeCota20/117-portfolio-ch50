@@ -1,0 +1,45 @@
+/* Avout me section*/
+
+.about-section{
+    padding: 2%;
+}
+
+.about-image-container img{
+    width: 70%;
+}
+
+.about-image-container{
+    width: 30%;
+}
+
+.about-description-container{
+    width: 70%;
+}
+
+.about-description-container p{
+    width: 90%;
+    margin: 2rem 0px;
+}
+
+
+.skills-list1{
+    display: grid;
+    grid-template-columns: repeat(5, 5fr);
+    /* flex-wrap: wrap; */
+    width: 50%;
+    gap:1rem;
+    margin-top: 2rem;
+}
+
+.text-label{
+    text-align: center;
+
+    
+}
+
+.skills-list{
+    flex-wrap: wrap;
+    width: 70%;
+    gap:1rem;
+    margin-top: 2rem;
+}
