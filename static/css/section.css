@@ -43,3 +43,41 @@
     gap:1rem;
     margin-top: 2rem;
 }
+
+.experience-section{
+    margin-top: 4rem;
+}
+
+.experience-card{
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin: 2rem 0px;
+}
+
+.experience-skills{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 1rem 0px;
+}
+
+a p:nth-child(2), .experience-card p:nth-child(1){
+    font-size: 1.5rem;
+    color: var(--secondary-color-600);
+    font-weight: bolder;
+    margin: .5rem 0px;
+}
+
+a p:nth-child(3), .experience-card p:nth-child(2){
+    font-style: italic;
+}
+
+a p:nth-child(4), .experience-card p:nth-child(4){
+    margin: .5rem 0px;
+    font-weight: bolder;
+    font-style: italic;
+    letter-spacing: .5rem;
+}

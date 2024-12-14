@@ -24,3 +24,6 @@ class Experience(models.Model):
     description = models.TextField()
     period = models.CharField(max_length=100)
     skills = models.ManyToManyField(Skill)
+
+    def __str__(self):
+        return f"{self.name} - {self.title}"
