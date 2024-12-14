@@ -13,6 +13,7 @@
 
     <link rel="stylesheet" href="{% static './css/section.css' %}">
     <link rel="stylesheet" href="{% static './css/responsive.css' %}">
+    <link rel="stylesheet" href="{% static './css/projects.css' %}">
     <title>{% block title %}{% endblock title %}</title>
 </head>
 <body>
@@ -31,7 +32,7 @@
             <!-- Menu Options -->
             <div class="nav-options center-row">
                 <a href="">About me</a>
-                <a href="">Projects</a>
+                <a href="{% url 'projects_list' %}">Projects</a>
                 <a href="">Experience</a>
                 <a href="">Contact</a>
             </div>
@@ -63,7 +64,7 @@
                         <img src="{% static './img/logo.png' %}">
                     </div>
                     <a href="">About me</a>
-                    <a href="">Projects</a>
+                    <a href="{% url 'projects_list' %}">Projects</a>
                     <a href="">Experience</a>
                     <a href="{% url 'contact' %}">Contact</a>
                 </div>

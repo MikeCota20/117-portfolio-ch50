@@ -23,4 +23,5 @@ urlpatterns = [
     path('test_page', views.test_view, name="testing"),
     path("", views.about_view, name="about"),
     path("contact/", views.contact_view, name="contact"),
+    path("content/", include('content.urls')),
 ]
